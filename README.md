@@ -224,4 +224,12 @@ If you encounter issues:
 
 ## License
 
-This tool is provided as-is for personal and business use. Feel free to modify and distribute as needed.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License is one of the most permissive open-source licenses, allowing you to:
+- Use the software for any purpose (commercial or personal)
+- Modify and distribute the software
+- Include it in proprietary software
+- No warranty or liability requirements
+
+Feel free to fork, modify, and distribute this tool as needed!
