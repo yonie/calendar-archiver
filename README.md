@@ -21,14 +21,12 @@ This tool downloads ICS calendar files from online URLs (particularly Outlook/Of
 - Python 3.6 or higher
 - Required packages: `requests`, `icalendar`
 
-### Setup
+### 1. Install Dependencies
 ```bash
-pip install requests icalendar
+pip install -r requirements.txt
 ```
 
-## Setup
-
-### 1. Install Dependencies
+Or install manually:
 ```bash
 pip install requests icalendar
 ```
@@ -213,13 +211,13 @@ If you encounter issues:
 ## File Management
 
 ### Cleanup
-- Remove `test_url.py` if you don't need URL testing
 - Archive old calendar folders as needed
 - The `.metadata` folder tracks changes - don't delete it
+- Generated calendar files are excluded from git by default
 
 ### Backup
 - Calendar archive folders are self-contained
-- Copy entire `calendar_archive_YYYY_MM` folders for backup
+- Copy entire year folders (e.g., `2025/`) for backup
 - Markdown files can be viewed in any text editor or browser
 
 ## License
